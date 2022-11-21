@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">HTML Interview  Q&A (Part 2)</h1>
+    <hr><br>
+    <h3>1. Difference between HTML Tags and Elements?</h3>
+    <font size="4" color="green">
+        <ul>
+            <li size="4">HTML tags- Tags are the starting and ending part of an HTML element. They
+                begin with “&lt;” symbol and end with “&gt;”. Whatever written inside &lt; and &gt; are
+                called tags. For instance: -- &lt;b&gt;&lt;/b&gt;</li>
+            <li>HTML elements – Elements enclose the contents in between the tags. They
+                consist of some kind of structure. It generally consists of a start tag, content and
+                end tag. For instance: -- &lt;b&gt;Content&lt;/b&gt;</li>
+        </ul>
+    </font>
+
+    <h3>2. Explain &lt;br /&gt; tag?</h3>
+    <font size="4" color="green">
+        <p>The &lt;br&gt; tag in HTML document is used to create a line break in a text. It is
+            an empty tag which means it does not need end tag like &lt;/br&gt;.</p>
+        <p>It is generally used in poem and address where the division of line is necessary.</p>
+    </font>
+
+    <h3>3. Explain how many different types of lists we have in html?</h3>
+    <font color="green" size="4">
+        <p>There are 3 types of lists in HTML, namely: Unordered List, Ordered List and Description List.</p>
+        <p>
+            <b>Unordered List:</b> An Unordered list is used to create a list of related items, in bulleted or unordered format. It starts with the &lt;ul&gt; tag, followed by the &lt;li&gt; tag to show list items inside &lt;ul&gt; tag. 
+            <ul>
+                <li>circle: It gives a circle list item marker.</li>
+                <li>square: It gives square as list item marker.</li>
+                <li>disc: This is the default filled circular bullet item marker.</li>
+                <li>none: This is used to unmark list items.</li>
+            </ul>
+        </p>
+        <p>
+            <b>Ordered Lists:</b> The Ordered lists have an order which is either numerical or alphabetical. The &lt;ol&gt; tag is used to create ordered lists in HTML and just like unordered list, we use &lt;li&gt; tag to define or show lists inside &lt;ol&gt; tag.
+            <ul>
+                <li>type = “1”: List will start from 1.</li>
+                <li>type = “A”: Here the list will start from A.</li>
+                <li>type = “a”: Here the list will start from lowercase a.</li>
+                <li>type = “I”: The list will start from Roman numbers.</li>
+                <li>type = “i”: TheList will start form lowercase Roman numbers.</li>
+            </ul>
+        </p>
+        <p>
+            <b>Description List: </b> A description list is a type of list where each item has a description. It is also known as a definition list. The &lt;dl&gt; tag is used to create description list, the &lt;dt&gt; tag defines the item, and the &lt;dd&gt; tag describes each item in list.
+            <ul>
+                <li>&lt;dl&gt;: It defines the start of the list.</li>
+                <li>&lt;dt&gt;: It defines a item.</li>
+                <li>&lt;dd&gt;: It defines the description of each item.</li>
+            </ul>   
+        </p>
+    </font>
+
+    <h3>4. What are semantic tags?</h3>
+    <font color="green" size="4">
+        <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+        <p>non-semantic elements:- Tells nothing about its content. <br>
+        like:- &lt;div&gt; &lt;span&gt;</p>
+        <p>Semantic elements:- Clearly defines its content. <br>
+            <ul>
+                <li>&lt;article&gt;</li>
+                <li>&lt;aside&gt;</li>
+                <li>&lt;details&gt;</li>
+                <li>&lt;figcaption&gt;</li>
+                <li>&lt;figure&gt;</li>
+                <li>&lt;footer&gt;</li>
+                <li>&lt;header&gt;</li>
+                <li>&lt;footer&gt;</li>
+                <li>&lt;main&gt;</li>
+                <li>&lt;mark&gt;</li>
+               <li> &lt;nav&gt;</li>
+                <li>&lt;section&gt;</li>
+                <li>&lt;summary&gt;</li>
+                <li>&lt;time&gt;</li>
+            </ul>   
+        </p>
+    </font>
+
+    <h3>5. Write code to create an ordered list with roman numbers?</h3>
+    <font color="green" size="4">
+        <ol type="I">
+            <li>Kaushal Yadav</li>
+            <li>Pradeep Yadav</li>
+            <li>Ashutosh Thakur</li>
+            <li>Anshul Kushwah</li>
+            <li>Altaf Khan</li>
+            <li>Shivam Rajput</li>
+            <li>Neeraj Sharma</li>
+            <li>Aniket Rajput</li>
+            <li>Krishna Rajput</li>
+            <li>Mohan Yadav</li>
+            <li>Amit</li>
+            <li>Shiva Sharma</li>
+            <li>Virendra Yadav</li>
+            <li>Pratul Yadav</li>
+            <li>Mani</li>
+            <li>Arvind Yadav</li>
+            <li>Mukesh Rajput</li>
+            <li>Jeeshan Khan</li>
+            <li>Pushpa</li>
+            <li>Pragati Yadav</li>
+            <li>Krishna Jaat</li>
+            <li>Diksha Yadav</li>
+            <li>Shilpi Agrawal</li>
+            <li>Pooja Yadav</li>
+            <li>Fatama Khan</li>
+        </ol>
+    </font>
+
+    <h3>6. Write code to create an unordered list with circle ?</h3>
+    <font style="list-style-type: circle;">
+        <ol type="I">
+            <li>Kaushal Yadav</li>
+            <li>Pradeep Yadav</li>
+            <li>Ashutosh Thakur</li>
+            <li>Anshul Kushwah</li>
+            <li>Altaf Khan</li>
+            <li>Shivam Rajput</li>
+        </ol>
+    </font>
+
+    <h3>7. Write code to create a link to https://www.prepbytes.com?</h3>
+    <font style="list-style-type: circle;">
+        <a href="https://www.prepbytes.com">Prepbytes Link</a>
+    </font>
+</body>
+</html>
